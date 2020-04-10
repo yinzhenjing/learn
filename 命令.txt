@@ -1,0 +1,9 @@
+git commit -a -m "x"
+git push origin master
+
+
+更新
+git pull origin master
+
+添加文件
+git add .
