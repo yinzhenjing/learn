@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <script src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="ctn">
+        <div class="box1">
+            <a href="#" class="ml">
+                <span class="sh">售后</span>
+                <span class="wz">7天无理由退换货</span>
+                <span class="fh"> > </span>
+            </a>
+        </div>
+        <div class="mask">
+            <ul class="">
+                <li>
+                    <p>● 正品保证</p>
+                    <span>平台所有产品均为厂家正品，若收到假冒伪劣产品，可获得加倍赔偿。</span>
+                </li>
+                <li>
+                    <p>● 好用不贵</p>
+                    <span>阿纯优品专注健康高品质日用品领域，以“好用”“不贵”为核心，打破暴利，让每一款产品都能溯源研发生产过程。</span>
+                </li>
+                <li>
+                    <p>● 7天无理由</p>
+                    <span>未确认收货情况下,7天无理由退换货,非质量问题买家需承担退货邮费。</span>
+                </li>
+                <li>
+                    <p>● 快速退款</p>
+                    <span>用户发起退款申请后，我们将第一时间进行受理和处理。</span>
+                </li>
+                <div class="anniu">
+                    <a href="#" class="botn">关闭</a>
+                </div>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    int;
+    var num = 1;  //整型
+    var xxxxxxx = 2.3434; //浮点型
+    var s = "sss"  //字符串
+    var bool = true or false //布尔型
+    //对象
+    var num2 = num / 1;
+    num++
+    num == 3 //true false
+
+    for(i=0;i<=100;i++){
+        console.log(i)
+    }
+
+    function func_name(str) {
+        if (str=="尹珍晶") {
+            return
+        }
+        $('body').html('<div style="background: #f60;color:#fff;">'+str+'</div>')
+    }
+/
+
+    //p.parent().siblings().removeClass('caidan');//
+    $(".ml").on('click',function() {
+
+        $(".mask").addClass('show_popup')
+        setTimeout(function(){
+            $(".mask ul").addClass('show')
+        });
+    })
+    $(".botn").on('click',function() {
+        $(".mask").removeClass('show_popup')
+        $(".mask ul").removeClass('show')
+
+    })
+
+</script>
+</html>

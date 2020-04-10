@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <script src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="ctn">
+        <form class="box1">
+            <i class="fa fa-search"></i>
+            <input value="" type="text" placeholder="通过姓名或公司搜索联系人">
+        </form>
+        <ul class="ul1">
+            <li class="icone1"><a href="#">全部</a></li>
+            <li class="icone1"><a href="#">招呼<em>●</em></a></li>
+            <li class="icone1"><a href="#">沟通中</a></li>
+            <li class="icone2"><a id="getCodeBtn" href="#">极速处理 · 33</a></li>
+        </ul>
+        <ul class="ul2">
+            <li class="item">
+                <div class="s1">
+                    <img src="./img/face.jpg" />
+                    <em>●</em>
+                </div>
+                <div class="txt">
+                    <p>珠海美浩 发不了新职位</p>
+                    <p class="msg">超过100位Boss新发布超过100位Boss新发布超过100位Boss新发布</p>
+                </div>
+                <div class="time">10:58</div>
+            </li>
+            <li class="item">
+                <div class="s1">
+                    <img src="./img/face.jpg" />
+                    <em class="tubiao"><span>3</span>●</em>
+                </div>
+                <div class="txt">
+                    <p>董萍<span class="jieshao">嘉汇地产·招聘者</span></p>
+                    <p class="msg"><span >[新招呼]</span>您是否接受此工作地点？</p>
+                </div>
+                <div class="time">4月4日</div>
+            </li>
+            <li class="item">
+                <div class="s1">
+                    <img src="./img/face.jpg" />
+                    <em class="tubiao"><span>3</span>●</em>
+                </div>
+                <div class="txt">
+                    <p>董萍<span class="jieshao">嘉汇地产·招聘者</span></p>
+                    <p class="msg"><span >[新招呼]</span>您是否接受此工作地点？</p>
+                </div>
+                <div class="time">4月4日</div>
+            </li>
+        </ul>
+    </div>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="#">
+                    <em class="fa fa-search"></em>
+                    <p>职位</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <em class="fa fa-search"></em>
+                    <p>发现</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <em class="fa fa-search"></em>
+                    <p>消息</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <em class="fa fa-search"><i>●</i></em>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+<script>
+
+    $("#getCodeBtn").on('click',function () {
+        var p = $(this).parent()
+        p.addClass('disableCodeBtn')
+        var sec = 3;
+        var timer = setInterval(function(){
+
+            if(sec<1){
+                p.removeClass('disableCodeBtn')
+                p.find('a').html('学习JS')
+                clearInterval(timer);
+                return
+            }
+            sec--;
+            p.find('a').html(sec+'秒可再获取')
+        },1000)
+    })
+    var a = 1;
+    function aa(){
+
+        return a+1
+    }
+    aa() //2
+    aa() //3
+</script>
+
+</html>

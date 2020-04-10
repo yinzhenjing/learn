@@ -1,0 +1,57 @@
+/**
+* @Author Miss.Yin
+* @Date 2020-04-08
+ */
+*{font-size: 12px;padding: 0px;margin: 0px;list-style: none;text-decoration: none;}
+body{max-width: 640px;width:100%;overflow:hidden;}
+.ctn{margin: 0 auto;}
+.biaoti{text-align: center;height:40px;line-height:40px;font-size: 30px;}
+.biaoti h2{font-size: 15px;}
+.txt{display: flex;background: #fff;display: flex;position: relative;}
+.caidan{flex: 0 0 80px;border-right: 1px solid #eee;}
+.caidan li a{display:block;width:100%;height:36px;line-height:36px;color: black; text-align: center;}
+.caidan li{height: 36px;}
+.caidan li.active a{color: #f00;font-size: 14px;}
+.box1{flex-grow: 1;padding: 10px 15px;overflow-y: scroll;height: calc(100vh - 40px);box-sizing: border-box;}
+.box1 .pindao a{display: inline-block;height: 100%;}
+.box1 .pindao a img{width: 100%;}
+.title p{margin-top: 10px;border-bottom:1px solid #eee;font-weight: bold;height: 30px; line-height: 30px;}
+.box1 .caidan2{width: 100%;}
+.box1 .caidan2 li{float: left;width: 33.33%;}
+.box1 .caidan2::after{display: block;content: " ";clear: both;}
+.box1 .caidan2 a{display: inline-block;width:100%;}
+.box1 .caidan2 a img{width:100%;}
+.box1 .caidan2 a span{display:inline-block;width:100%;text-align: center;}
+.huadong{width: 3px;height: 16px;position: absolute;left: 0px;top: 10px;transition: top 0.1s ease-out;animation:xx 2s ease-in-out 0s infinite alternate;-wekbit-animation:xx 2s ease-in-out 0s infinite alternate;}
+.huadong{border-left: 3px solid #f00;}
+
+@keyframes xx {
+    0%{
+        top:0px;
+        border-left-color:#f00;
+    }
+    50%{
+        border-left-color:#4f4;
+    }
+    100% {
+        top:600px;
+        border-left-color:#00f;
+    }
+}
+
+@-webkit-keyframes xx {
+    0%{
+        top:0px;
+        border-left-color:#f00;
+    }
+    50%{
+        border-left-color:#4f4;
+    }
+    100% {
+        top:600px;
+        border-left-color:#00f;
+    }
+}
+
+
+
