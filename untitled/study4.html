@@ -11,27 +11,27 @@
 <body>
     <div class="ctn">
         <ul class="box1">
-            <li>
+            <li class="gd">
                 <a href="#">
                     <i class="fa fa-search"></i>
                     <p>首页</p>
                 </a>
             </li>
-            <li>
+            <li class="gd kf">
                 <a href="#">
                     <i class="fa fa-search"></i>
                      <p>客服</p>
                 </a>
             </li>
-            <li>
+            <li class="gd">
                 <a href="#">
                     <i class="fa fa-search"></i>
                     <p>购物车</p>
                 </a>
             </li>
-            <li>
-                <a href="javascript:void(0)">加入购物车</a>
-                <a href="javascript:void(0)">立即购买</a>
+            <li class="lh">
+                <a href="javascript:void(0)" class="gwc">加入购物车</a>
+                <a href="javascript:void(0)" class="ljgm">立即购买</a>
             </li>
         </ul>
         <div class="xhbj">
@@ -40,30 +40,21 @@
                     <div class="fm">
                         <a href="javascript:void(0)"><img src="./img/sw.jpg"/></a>
                     </div>
-                    <div>
-                        <a href="javascript:void(0)"><img src=""/></a>
-                    </div>
-                    <div>
-                        <a href="javascript:void(0)"><img src=""/></a>
-                    </div>
-                    <div>
-                        <a href="javascript:void(0)"><img src=""/></a>
-                    </div>
                     <div class="heyong">
                         <span>tutubena日系女360度防掉跟 日单超 何勇是个哈巴狗何勇是个哈巴狗何勇是个哈巴狗何勇是个哈巴狗何勇是个哈巴狗</span>
-                        <em>x</em>
+                        <a href="javascript:void(0)" class="closebtn">x</a>
                         <p>￥9.90</p>
                     </div>
                 </div>
                 <div class="ys">
                     <p>颜色：</p>
                     <ul>
-                        <li><a href="javascript:void(0)">白色</a></li>
-                        <li><a href="javascript:void(0)">粉色</a></li>
-                        <li><a href="javascript:void(0)">黑色</a></li>
-                        <li><a href="javascript:void(0)">浅肤色</a></li>
-                        <li><a href="javascript:void(0)">浅灰色</a></li>
-                        <li class="none"><a href="javascript:void(0)">深肤色</a></li>
+                        <li>白色</li>
+                        <li>粉色</li>
+                        <li>黑色</li>
+                        <li>浅肤色</li>
+                        <li>浅灰色</li>
+                        <li class="none">深肤色</li>
                     </ul>
                 </div>
                 <div class="xz">
@@ -72,9 +63,9 @@
                         <p class="nr2">剩余2419件</p>
                     </div>
                     <ul>
-                        <li><a href="javascript:void(0)">+</a></li>
-                        <li class="sz"><a href="javascript:void(0)">1</a></li>
-                        <li class="jh"><a href="javascript:void(0)">-</a></li>
+                        <li class="jh"><a href="javascript:void(0)" class="reduce">-</a></li>
+                        <li class="sz">1</li>
+                        <li><a href="javascript:void(0)" class="zd plus">+</a></li>
                     </ul>
                 </div>
                 <div class="anniu">
@@ -84,4 +75,47 @@
         </div>
     </div>
 </body>
+<script>
+
+    var imgs = ["cw3.jpg","cw2.jpg","cw.jpg"]
+    $(".ljgm").on('click',function() {
+        var o = $(this);
+        o.parent().parent().siblings().addClass('show');
+    });
+    $(".closebtn").on('click',function() {
+        $(".xhbj").removeClass("show")
+    });
+    $(".ys ul li").click(function(){
+        if ($(this).is('.none')) {
+            return false;
+        }
+        $(this).addClass("on")
+        $(this).siblings().removeClass("on")
+        var idx = $(this).index()
+        var src = "./img/cw3.jpg";
+        if ( imgs.length >= idx+1){
+            src = './img/'+imgs[idx]
+        }
+        $(".fm a img").attr('src',src)
+    });
+    $(".zd").click(function(){
+        var num =  $(".sz").html()
+        num++;
+        $(".sz").html(num)
+
+        $(".jh").removeClass("jh")
+    });
+    $(".reduce").click(function() {
+        var num = $(".sz").html()
+        if ( num <= 1 ) {
+            return false;
+        }
+        num--;
+        $(".sz").html(num)
+        if ( num <= 1 ) {
+            $(this).parent().addClass("jh")
+        }
+
+    });
+</script>
 </html>

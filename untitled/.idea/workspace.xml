@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2483e14-4a79-44af-afcb-f1b6ddfb821f" name="Default Changelist" comment="" />
+    <list default="true" id="e2483e14-4a79-44af-afcb-f1b6ddfb821f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/大图_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style4.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1.html" beforeDir="false" afterPath="$PROJECT_DIR$/study1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study3.html" beforeDir="false" afterPath="$PROJECT_DIR$/study3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study4.html" beforeDir="false" afterPath="$PROJECT_DIR$/study4.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,13 +23,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1a9CU8nii1XWpfxpRSl7QVAdJm3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
@@ -38,14 +51,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Raytine\WebstormProjects\untitled" />
-      <recent name="C:\Users\Raytine\WebstormProjects\untitled\css" />
-      <recent name="C:\Users\Raytine\WebstormProjects\untitled\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Raytine\WebstormProjects\untitled\img" />
       <recent name="C:\Users\Raytine\WebstormProjects\untitled" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Raytine\WebstormProjects\untitled\css\img" />
+      <recent name="C:\Users\Raytine\WebstormProjects\untitled" />
+      <recent name="C:\Users\Raytine\WebstormProjects\untitled\css" />
+      <recent name="C:\Users\Raytine\WebstormProjects\untitled\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -68,7 +82,8 @@
       <workItem from="1586138437014" duration="28563000" />
       <workItem from="1586252749878" duration="2222000" />
       <workItem from="1586260020922" duration="36000000" />
-      <workItem from="1586406672367" duration="36787000" />
+      <workItem from="1586406672367" duration="78332000" />
+      <workItem from="1586832060502" duration="7408000" />
     </task>
     <servers />
   </component>
@@ -76,10 +91,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586161213341">
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586851622586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586161213341" />
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586851622586" />
     <state x="673" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586238957921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -88,10 +103,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586496867265" />
-    <state x="463" y="164" key="SettingsEditor" timestamp="1586233271100">
+    <state x="463" y="164" key="SettingsEditor" timestamp="1586524765674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586233271100" />
+    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586524765674" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586700640238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586700640238" />
     <state x="100" y="100" width="1720" height="847" key="dock-window-1" timestamp="1586345153883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -104,9 +123,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586428553544" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586428537777">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586776663439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586428537777" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586776663439" />
   </component>
 </project>
