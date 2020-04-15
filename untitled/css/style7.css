@@ -3,12 +3,15 @@
 * @Date 2020-04-15
  */
 *{font-size: 12px;padding: 0px;margin: 0px;list-style: none;text-decoration: none;}
-body{max-width: 640px;margin: 0 auto;width:100%;overflow:hidden;overflow-y:scroll;}
+body{max-width: 640px;margin: 0 auto;width:100%;overflow:hidden;overflow-y:scroll;font-family:Arial,Tahoma,sans-serif;}
 .ctn{background: #f5f5f5;padding-bottom:30px;}
 img{width:100%;}
 .pricebox{background:#eb5c44;height:60px;margin-top:-3px;}
 .pricebox::after{display:block;content:" ";clear:both;}
 .pricebox .price{float:left;color:#fff;height:100%;line-height:60px;width:110px;font-size:25px;text-align:center;}
-.pricebox .buy{float:left;}
-.pricebox .buy .yuanjia{color:#fff;text-decoration}
+.pricebox .buy{float:left;height:100%;}
+.pricebox .buy .yuanjia{color:#fff;text-decoration:line-through;height:30px;line-height:30px;font-size:16px;}
+.pricebox .buy .qg{height:30px;}
+.pricebox .buy .qg .qgj{background:#fff;color:#eb5c44;display:inline-block;width:55px;height:20px;font-size:14px;text-align:center;}
+.pricebox .buy .qg .qgj i{display:inline-block;border: 10px solid;border-color:#eb5c44 #fff #eb5c44 #eb5c44;float: left;margin-left: -12px;border-right-width: 6px;}
 .pricebox .time{float:right;}
