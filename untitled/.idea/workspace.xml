@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2483e14-4a79-44af-afcb-f1b6ddfb821f" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Raytine.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/img/jrbt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/img/top_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jj.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/xtb.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style6.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study6.html" beforeDir="false" afterPath="$PROJECT_DIR$/study6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +79,8 @@
       <workItem from="1586252749878" duration="2222000" />
       <workItem from="1586260020922" duration="36000000" />
       <workItem from="1586406672367" duration="78332000" />
-      <workItem from="1586832060502" duration="26231000" />
+      <workItem from="1586832060502" duration="26715000" />
+      <workItem from="1586925038686" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1586851687617</created>
@@ -108,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586852453939</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Default Changelist">
+      <created>1586878989928</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586878989928</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,10 +133,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586873859861" />
-    <state x="566" y="114" key="CommitChangelistDialog2" timestamp="1586857530237">
+    <state x="566" y="114" key="CommitChangelistDialog2" timestamp="1586878988704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="566" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586857530237" />
+    <state x="566" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586878988704" />
     <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1586496867265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,10 +145,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586861578665" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586852462062">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586878991885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586852462062" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586878991885" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586700640238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
